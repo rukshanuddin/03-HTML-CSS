@@ -1,4 +1,38 @@
-img {
-    max-width: 200px;
-    max-height: 200px;
+html {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: darkslategrey;
+}
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+  color: white;
+}
+h2{
+    font-size: 24px;
+}
+#bio-image,
+#contact-info,
+#main-bio {
+  float: left;
+}
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+#main-bio {
+    margin-left: 25px;
+  width: 50%;
+}
+#contact-info {
+  width: 30%;
 }
